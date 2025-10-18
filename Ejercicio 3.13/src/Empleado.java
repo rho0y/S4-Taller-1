@@ -1,10 +1,12 @@
 import java.awt.Component;
 import javax.swing.JOptionPane;
-
+/** Creacion de clases y atributos*/
 public class Empleado {
     private String apellidoP;
     private String primerN;
     private double salario;
+    
+    /**Declaracion de Constructores*/
 
     public Empleado() {
     }
@@ -14,6 +16,7 @@ public class Empleado {
         this.primerN = primerN;
         this.salario = salario;
     }
+        /**METODOS JAVA */
 
     public String getApellidoP() {
         return this.apellidoP;
@@ -39,6 +42,8 @@ public class Empleado {
         this.salario = salario;
     }
 
+    /** Metodos del programador*/
+
     public void imprimirDatos() {
         String var10000 = this.primerN;
         String mensaje = "\nNombre y apellido del empleado: " + var10000 + " " + this.apellidoP + "\n\nSalario del empleado: " + this.getSalario();
@@ -52,4 +57,5 @@ public class Empleado {
         JOptionPane.showMessageDialog((Component)null, mensaje);
     }
 }
+
 
