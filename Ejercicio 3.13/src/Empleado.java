@@ -1,8 +1,3 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by FernFlower decompiler)
-//
-
 import java.awt.Component;
 import javax.swing.JOptionPane;
 
@@ -57,3 +52,4 @@ public class Empleado {
         JOptionPane.showMessageDialog((Component)null, mensaje);
     }
 }
+
